@@ -1,0 +1,36 @@
+/* Couleur de fond pour l'en-tête de carte */
+.headerCard {
+    background-color: var(--bleuClair);
+}
+
+/* Fond semi-transparent pour les cartes */
+.carte {
+    background-color: var(--bleuFonceTransparent);
+}
+
+/* Fond bleu pour les éléments sélectionnés et boutons */
+.selec, .bG {
+    background-color: var(--bleu);
+}
+
+/* Texte clair pour les éléments sélectionnés */
+.selec, .clair {
+    color: var(--bleuClair);
+}
+
+/* Style des liens d'activité */
+.acti, .coul {
+    text-decoration: none;
+    color: var(--bleuFonce);
+}
+
+/* Style pour les évaluations */
+.rating {
+    text-decoration: none;
+    color: grey;
+}
+
+/* Image de fond */
+.fond {
+    background-image: url("../images/fondMember.avif");
+}

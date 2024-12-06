@@ -1,0 +1,34 @@
+<!-- 
+    Section de HTML permettant l'affichage du formulaire permettant d'ajouter ou de modifier un adhérent
+-->
+<div class="row">
+    <div class="col-lg-10 offset-lg-1">
+        <form action="[actionMember]" method="POST" class="mt-2 form d-none clair">
+            <h2 class="text-center">[addChange] un adhérent</h2>
+            <label for="name">Nom</label><br>
+            <input type="text" id="name" name="name" value="[name]" class="form-control headerCard border-0" required>
+            <label for="address">Adresse</label><br>
+            <input type="text" id="address" name="address" value="[address]" class="form-control headerCard border-0" required>
+            <div class="row">
+                <div class="col-4">
+                    <label for="postCode">Code Postal</label><br>
+                    <input type="number" id="postCode" name="postCode" value="[postCode]" class="form-control headerCard border-0" required>
+                </div>
+                <div class="col-7 offset-1">
+                    <label for="city">Ville</label><br>
+                    <input type="text" id="city" name="city" value="[city]" class="form-control headerCard border-0" required>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-8">
+                    <label for="dateBirth">Date de naissance</label>
+                    <input type="date" id="dateBirth" name="dateBirth" value="[dateBirth]" class="form-control headerCard border-0" required>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <input type="submit" value="[addChange]" class="btn bG clair">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

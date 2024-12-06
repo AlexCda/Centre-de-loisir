@@ -1,0 +1,36 @@
+/* Fond vert clair pour l'en-tête de carte */
+.headerCard {
+    background-color:  var(--vertClair);
+}
+
+/* Fond semi-transparent pour les cartes */
+.carte {
+    background-color: var(--vertFonceTransparent);
+}
+
+/* Fond vert pour éléments sélectionnés et boutons */
+.selec, .bG {
+    background-color: var(--vert);
+}
+
+/* Texte clair pour éléments sélectionnés */
+.selec, .clair {
+    color: var(--vertClair);
+}
+
+/* Style des liens en vert foncé */
+.adhe, .coul {
+    text-decoration: none;
+    color: var(--vertFonce);
+}
+
+/* Style pour les évaluations */
+.rating {
+    text-decoration: none;
+    color: grey;
+}
+
+/* Image de fond spécifique */
+.fond {
+    background-image: url("../images/fondActivity.avif");
+}

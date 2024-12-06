@@ -1,0 +1,24 @@
+<!-- 
+    Section de HTML permettant l'affichage dans une card d'un élément de la liste des participants à une session
+-->
+<div class="row">
+    <div class="col-lg-10 offset-lg-1">
+        <div class="card my-2 headerCard">
+            <div class="card-body py-1">
+                <div class="row detailsSession">
+                    <div class="col-6">
+                        <span class="nameMember coul">[NumMember]</span>
+                    </div>
+                    <div class="col-4">
+                        <span class="score coul">[score]</span>
+                    </div>
+                    <div class="col-2">
+                        <a href="index.php?action=getFormRating&count=1&session=[idSession]&name=[NumMemberUrl]&score=[score]&modif=vrai">
+                            <i class="bi bi-pencil-square coul"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

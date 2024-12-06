@@ -1,0 +1,35 @@
+<!-- 
+    Section de HTML permettant l'affichage du formulaire permettant d'ajouter une activité pour une activité et du bouton qui permet de l'afficher
+-->
+<div class="row">
+    <div class="col-lg-10 offset-lg-1">
+        <div class="card-footer bg-transparent border-0 clair">
+            <div class="d-flex justify-content-end me-5">
+                <div class="creation row callCreateSession">
+                    <div class="col-lg-3 offset-9 my-2 me-5">
+                        <a class="btn bG clair">Ajouter</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <form action="index.php?action=createSession" class="d-none formCreaSession clair" method="post">
+            <h2>Nouvelle séance</h2>
+            <div class="row">
+                <div class="d-none">
+                    <input type="number" name="idActivity" value="[idActivity]">
+                </div>
+                <div class="col-lg-5 col-6">
+                    <label for="startDate">Date de début</label><br>
+                    <input type="date" name="startDate" id="startDate" class="headerCard" required>
+                </div>
+                <div class="col-lg-5 col-6">
+                    <label for="startTime">Heure de début</label><br>
+                    <input type="time" name="startTime" id="startTime" class="headerCard" required>
+                </div>
+                <div class="col-lg-2">
+                    <input type="submit" class="mt-1 btn bG clair" value="Ajouter">
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

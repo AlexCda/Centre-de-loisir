@@ -1,0 +1,41 @@
+/* Définition des variables de couleur */
+:root {
+    --bleuClair: #e3effb;
+    --bleu: #164164;
+    --bleuFonce: #0A1D2E;
+    --bleuFonceTransparent: #0a1d2ea4;
+    --roseClair: #fbf4f7;
+    --rose: #A01439;
+    --roseFonce: #703243;
+    --roseFonceTransparent: #703243a4;
+    --vertClair: #e3f2e8;
+    --vert: #265537;
+    --vertFonceTransparent: #21462fa4;
+    --vertFonce: #21452f;
+}
+
+/* Limite la largeur maximale du logo */
+   .logo {
+    max-width: 15rem;
+}
+
+/* Classe pour les arrière-plans avec des propriétés de positionnement et de dimensionnement spécifiques */
+.fond {
+    background-position: 25% bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+}
+
+/* Classe de style pour les éléments sélectionnés dans la navigation*/
+.selec {
+    padding: 0.1rem 0.5rem 0.3rem 0.5rem;
+    border-radius: 10%;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+/* Définit une couleur rouge foncé pour les éléments de suppression*/
+.supp {
+    color: #910606;
+}

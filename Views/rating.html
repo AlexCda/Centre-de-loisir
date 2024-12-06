@@ -1,0 +1,36 @@
+<!-- 
+    Section de HTML permettant l'affichage dans une card du formulaire permettant de renseigner les adhérents et leur avis pour une séance
+    Les éléments du formulaire pour chaque adhérent et sa score sont structurés dans un autre fichier
+-->
+<div class="container attendances">
+    <div class="row">
+        <div class="col-lg-10 offset-lg-1">
+            <div class="card carte clair border-0">
+                <div class="card-body">
+                    <h1 class="text-center">Avis</h1>
+                    <form action="[creaModif]" method="post">
+                        <div class="row">
+                            <div class="col-lg-10 offset-lg-1">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <Label for="session">Séance</Label>
+                                        <input type="text" value="[Session]" name="session" id="session"  class="form-control" [read]>
+                                    </div>
+                                    <div class="col-8">
+                                        <br> <p class="clair">[nameActivity]</p>
+                                    </div>
+                                </div>
+                                [list]
+                                <div class="card-footer bg-transparent border-0">
+                                    <div class="d-flex justify-content-end me-5">
+                                        <input type="submit" class="btn bG clair mt-1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

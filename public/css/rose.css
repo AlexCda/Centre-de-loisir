@@ -1,0 +1,30 @@
+/* Fond rose clair pour certains éléments */
+.roseClairBG, .headerCard {
+    background-color: var(--roseClair);
+}
+
+/* Fond semi-transparent pour les cartes */
+.carte {
+    background-color: var(--roseFonceTransparent);
+}
+
+/* Fond rose pour boutons et éléments sélectionnés */
+.roseBG, .selec, .bG {
+    background-color: var(--rose);
+}
+
+/* Texte clair pour certains éléments */
+.roseClair, .selec, .clair {
+    color: var(--roseClair);
+}
+
+/* Style des liens et textes en rose foncé */
+.roseF, .acti, .adhe, .coul {
+    text-decoration: none;
+    color: var(--roseFonce);
+}
+
+/* Image de fond spécifique */
+.fond {
+    background-image: url("../images/fondAttendances.avif");
+}
